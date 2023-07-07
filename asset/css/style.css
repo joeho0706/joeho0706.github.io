@@ -1,0 +1,77 @@
+/* 
+Add in your custom style such that you can develop the wonderful website within the exercise. 
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+/*
+font style
+*/
+#navbar-example2 a,
+h1,
+h4,
+.col h2,
+.col p {
+  font-family: "Russo One", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.section p {
+  font-size: 24px;
+}
+
+.col h2 {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.col h1 {
+  color: #ccc;
+}
+
+/*
+body style
+*/
+.header .row {
+  background-color: rgb(39, 55, 77);
+  min-height: 30em;
+}
+.header .col {
+  margin-bottom: 10px;
+}
+
+.section .row {
+  color: #fff;
+  padding: 20px;
+  min-height: 30em;
+}
+.section .col {
+  margin-bottom: 10px;
+}
+
+.section:nth-child(odd) {
+  background: rgb(82, 109, 130);
+}
+
+.section:nth-child(even) {
+  background: rgb(157, 178, 191);
+}
+
+.footer {
+  background-color: rgb(219, 46, 46);
+  height: 15em;
+}
+
+.footer .row {
+  min-height: 5em;
+}
+
+/* 
+img style 
+*/
+#mySkillSub img {
+  width: 10em;
+}
