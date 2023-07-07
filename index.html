@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Document</title>
+    <title>JoeHo Personal Web Site</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./asset/favicon_io/favicon.ico"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -21,7 +26,7 @@
     <!--------------------------navBar---------------------------->
     <nav
       id="navbar-example2"
-      class="navbar navbar-expand-lg bg-body-tertiary sticky-top ps-3"
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top ps-3 bg-opacity-10"
     >
       <a class="navbar-brand" href="#">Home</a>
       <button
@@ -66,30 +71,31 @@
       tabindex="0"
     >
       <!--------------------------header--------------------------->
-      <div class="container-fluid text-center header" id="header">
+      <div class="container-fluid text-center header typewriter" id="header">
         <div
           class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 flex-column justify-content-center align-items-center"
         >
-          <div class="col col-lg-6 ">
+          <div class="col col-lg-6">
             <img
               src="./asset/img/20230522_180401.jpg"
               height="250"
               class="rounded-circle"
             />
           </div>
-          <div class="col col-lg-6 "><h1>Hello, I'm JoeHo.</h1></div>
+          <div class="col col-lg-auto"><h1>Hello, I'm JoeHo.</h1></div>
         </div>
       </div>
       <!--------------------------section1---------------------------->
       <div class="container-fluid text-center section" id="section1">
         <div
-          class="row d-flex flex-column justify-content-center align-items-center"
+          class="row d-flex flex-column justify-content-center align-items-center wow animate__fadeInUp"
+          data-wow-duration="0.5s"
           id="aboutMe"
         >
-          <div class="col col-4 ">
+          <div class="col col-4">
             <h2>About Me</h2>
           </div>
-          <div class="col col-6 ">
+          <div class="col col-6">
             <p>
               I have been in the electrical engineering industry for over a
               decade, but my true passion lies in web development and the world
@@ -107,10 +113,11 @@
           </div>
         </div>
         <div
-          class="row justify-content-center align-items-center "
+          class="row justify-content-center align-items-center wow animate__fadeInLeft"
+          data-wow-duration="1s"
           id="aboutMeSub"
         >
-          <div class="col-xl-2 ">
+          <div class="col-xl-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="10em"
@@ -134,7 +141,7 @@
               />
             </svg>
           </div>
-          <div class="col-xl-2 ">
+          <div class="col-xl-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="10em"
@@ -158,7 +165,7 @@
               />
             </svg>
           </div>
-          <div class="col-xl-2 ">
+          <div class="col-xl-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="10em"
@@ -175,10 +182,11 @@
       <!--------------------------section2---------------------------->
       <div class="container-fluid text-center section" id="section2">
         <div
-          class="row d-flex flex-column justify-content-center align-items-center"
+          class="row d-flex flex-column justify-content-center align-items-center wow animate__fadeInUp"
+          data-wow-duration="0.5s"
           id="myVacation"
         >
-          <div class="col col-4 "><h2>My Vacation</h2></div>
+          <div class="col col-4"><h2>My Vacation</h2></div>
           <div class="col col-6">
             <p>
               On Hong Kong Special Administrative Region Establishment Day, I
@@ -193,7 +201,11 @@
             </p>
           </div>
         </div>
-        <div id="carouselExampleIndicators" class="container carousel slide w-50 ">
+        <div
+          id="carouselExampleIndicators"
+          class="container carousel slide w-50 wow animate__fadeInUp"
+          data-wow-duration="1.5s"
+        >
           <div class="carousel-indicators">
             <button
               type="button"
@@ -223,10 +235,10 @@
             ></button>
           </div>
           <div class="carousel-inner rounded-top-circle">
-            <div class="carousel-item  active ">
+            <div class="carousel-item active">
               <img
                 src="./asset/img/20230701_122349.jpg"
-                class="d-block w-100  "
+                class="d-block w-100"
                 alt="..."
               />
             </div>
@@ -275,11 +287,12 @@
       <!--------------------------section3---------------------------->
       <div class="container-fluid text-center section" id="section3">
         <div
-          class="row d-flex flex-column justify-content-center align-items-center"
+          class="row d-flex flex-column justify-content-center align-items-center wow animate__fadeInUp"
+          data-wow-duration="0.5s"
           id="mySkills"
         >
-          <div class="col col-4 "><h2>My Skills</h2></div>
-          <div class="col col-6 ">
+          <div class="col col-4"><h2>My Skills</h2></div>
+          <div class="col col-6">
             <p>
               I look forward to further deepening my skills in information
               technology.
@@ -287,7 +300,8 @@
           </div>
         </div>
         <div
-          class="row justify-content-center align-items-start "
+          class="row justify-content-center align-items-start wow animate__fadeInLeft"
+          data-wow-duration="1s"
           id="mySkillSub"
         >
           <div class="col-md-2">
@@ -310,24 +324,26 @@
       <!--------------------------section7---------------------------->
       <!--------------------------footer---------------------------->
       <div class="container-fluid text-center footer" id="footer">
-        <div class="row justify-content-center align-content-center " id="contactMe">
+        <div
+          class="row justify-content-center align-content-center"
+          id="contactMe"
+        >
           <div class="col"><h4>Communication</h4></div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="col-1"><i class="fa-brands fa-facebook fa-2xl"></i></div>
           <div class="col-1"><i class="fa-brands fa-discord fa-2xl"></i></div>
-          <div class="col-1">
-            <i class="fa-brands fa-github fa-2xl"></i>
-          </div>
+          <div class="col-1"><i class="fa-brands fa-github fa-2xl"></i></div>
         </div>
         <div class="row">
           <div class="col">
             <footer>
-             <p> © Copyright Impact. All Rights Reserved Designed by JohHo</p>
+              <p>© Copyright Impact. All Rights Reserved Designed by JohHo</p>
             </footer>
           </div>
         </div>
       </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/7017e9f1cc.js"
       crossorigin="anonymous"
@@ -342,7 +358,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/js/wow.js"></script>
+    <script src="./asset/js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
